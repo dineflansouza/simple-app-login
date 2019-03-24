@@ -47,16 +47,15 @@
             android:layout_height="0dp"/>
 
     <TextView
+            style="@style/Text.Link.Centered"
             android:textAlignment="center"
             tools:text="@tools:sample/lorem"
             android:id="@+id/sign_info"
-            android:textColor="@color/secondary_text_white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
             android:layout_marginBottom="32dp"
-            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
