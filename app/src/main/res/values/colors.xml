@@ -4,10 +4,13 @@
     <color name="primary_dark">#0097A7</color>
     <color name="primary_light">#B2EBF2</color>
     <color name="accent">#FF4081</color>
+
     <color name="primary_text">#212121</color>
     <color name="secondary_text">#757575</color>
     <color name="secondary_text_white">#FFFFFF</color>
+
     <color name="icons">#FFFFFF</color>
     <color name="default_background_color">#FFFFFF</color>
+    <color name="hover_background_color">#757575</color>
     <color name="divider">#BDBDBD</color>
 </resources>

@@ -6,6 +6,6 @@
 
   <fragment
     android:id="@+id/product_info"
-    android:name="com.lennon.navigationapp.view.onboarding.fragments.ProductIntroFragment"/>
+    android:name="com.lennon.navigationapp.view.onboarding.fragments.welcome.WelcomeFragment"/>
 
 </navigation>
