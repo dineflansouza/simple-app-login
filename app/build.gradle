@@ -36,6 +36,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
     implementation "com.android.support:appcompat-v7:$versions.appcompat"
     implementation "com.android.support.constraint:constraint-layout:$versions.constraintLayout"
+    implementation "android.arch.navigation:navigation-fragment:$versions.navigationFragment"
 
     //lottie
     implementation "com.airbnb.android:lottie:$versions.lottieVersion"
@@ -44,4 +45,5 @@ dependencies {
 
     androidTestImplementation "com.android.support.test:runner:$versions.runner"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$versions.espresso"
+
 }
