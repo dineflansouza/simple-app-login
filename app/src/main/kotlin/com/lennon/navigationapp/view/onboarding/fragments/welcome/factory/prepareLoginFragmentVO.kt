@@ -2,8 +2,8 @@ package com.lennon.navigationapp.view.onboarding.fragments.welcome.factory
 
 import com.lennon.navigationapp.R
 import com.lennon.navigationapp.view.onboarding.fragments.welcome.model.vo.WelcomeFramentVO
-import com.lennon.navigationapp.view.onboarding.model.vo.ButtonVO
-import com.lennon.navigationapp.view.onboarding.model.vo.LinkVO
+import com.lennon.navigationapp.model.vo.ButtonVO
+import com.lennon.navigationapp.model.vo.LinkVO
 
 internal fun prepareWelcomeFragmentVO(): WelcomeFramentVO {
     return WelcomeFramentVO(

@@ -8,4 +8,14 @@
     <style name="Text.Link.Centered" parent="Text.Link">
         <item name="android:textAlignment">center</item>
     </style>
+
+    <style name="Text.Header" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/secondary_text_white</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="Text.Header.Centered" parent="Text.Header">
+        <item name="android:textAlignment">center</item>
+    </style>
 </resources>

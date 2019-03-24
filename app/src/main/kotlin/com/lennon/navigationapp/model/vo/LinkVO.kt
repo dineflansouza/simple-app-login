@@ -1,4 +1,4 @@
-package com.lennon.navigationapp.view.onboarding.model.vo
+package com.lennon.navigationapp.model.vo
 
 class LinkVO(
     var title: Int,

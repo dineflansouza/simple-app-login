@@ -3,7 +3,11 @@
     <string name="product_info_title">Cartão People</string>
 
     <string name="sign_info_text">Já possui cadastro. **Entre aqui**.</string>
-    <string name="sign_info_text_accessibility">Já possui cadastro. Entre aqui.</string>
+    <string name="sign_info_text_accessibility">Já possui cadastro?. Entre aqui.</string>
+
+    <string name="not_account_still_text">Não possui cadastro ainda?. **Entre aqui**.</string>
+    <string name="not_account_still_text_accessibility">Não possui cadastro ainda?. Entre aqui.</string>
+
     <string name="sign_up_button_text">quero me cadastrar</string>
     <string name="login_button_text">entrar</string>
 </resources>

@@ -1,7 +1,7 @@
 package com.lennon.navigationapp.view.onboarding.fragments.login.model.vo
 
-import com.lennon.navigationapp.view.onboarding.model.vo.ButtonVO
-import com.lennon.navigationapp.view.onboarding.model.vo.LinkVO
+import com.lennon.navigationapp.model.vo.ButtonVO
+import com.lennon.navigationapp.model.vo.LinkVO
 
 class LoginFramentVO(
     var title: Int,

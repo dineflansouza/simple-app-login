@@ -1,9 +1,9 @@
 package com.lennon.navigationapp.view.onboarding.fragments.login.factory
 
 import com.lennon.navigationapp.R
+import com.lennon.navigationapp.model.vo.ButtonVO
+import com.lennon.navigationapp.model.vo.LinkVO
 import com.lennon.navigationapp.view.onboarding.fragments.login.model.vo.LoginFramentVO
-import com.lennon.navigationapp.view.onboarding.model.vo.ButtonVO
-import com.lennon.navigationapp.view.onboarding.model.vo.LinkVO
 
 internal const val BLANK_EMAIL = ""
 internal const val BLANK_PASSWORD = ""
@@ -20,7 +20,7 @@ internal fun prepareLoginFragmentVO(): LoginFramentVO {
             enabled = false
         ),
         signLink = LinkVO(
-            title = R.string.sign_info_text,
+            title = R.string.not_account_still_text,
             nextStep = 0
         )
     )
