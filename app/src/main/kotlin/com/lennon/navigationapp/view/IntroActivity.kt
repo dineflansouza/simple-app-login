@@ -18,6 +18,6 @@ class IntroActivity : AppCompatActivity() {
         Handler().postDelayed({
             startActivity(OnboardingActivity(this))
             finish()
-        }, 3000)
+        }, 300)
     }
 }

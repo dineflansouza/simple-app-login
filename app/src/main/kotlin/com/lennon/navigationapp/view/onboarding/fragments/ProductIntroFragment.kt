@@ -14,6 +14,6 @@ class ProductIntroFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.product_info_fragment, container)
+        return inflater.inflate(R.layout.product_info_fragment, container, false)
     }
 }
