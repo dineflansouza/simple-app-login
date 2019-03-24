@@ -52,6 +52,11 @@ dependencies {
     //markwon
     implementation "ru.noties.markwon:core:$versions.markwonVersion"
 
+    // Koin for Android
+    implementation "org.koin:koin-android:$versions.koin"
+    implementation "org.koin:koin-android-scope:$versions.koin"
+    implementation "org.koin:koin-android-viewmodel:$versions.koin"
+
     testImplementation "junit:junit:$versions.junit"
 
     androidTestImplementation "com.android.support.test:runner:$versions.runner"
