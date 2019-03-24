@@ -39,6 +39,7 @@ class WelcomeFragment : Fragment() {
     }
 
     private fun setSignUpButton() {
+        sign_up_button.isEnabled = viewModel.fragmentVO.signUpButton.enabled
         sign_up_button.text = getString(viewModel.fragmentVO.signUpButton.title)
         sign_up_button.setOnClickListener(
             Navigation.createNavigateOnClickListener(

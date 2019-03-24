@@ -15,4 +15,18 @@
         </shape>
     </item>
 
+    <item android:state_enabled="false">
+        <shape>
+            <corners
+                    android:topLeftRadius="8dp"
+                    android:topRightRadius="8dp"
+                    android:bottomRightRadius="8dp"
+                    android:bottomLeftRadius="8dp">
+            </corners>
+            <solid
+                    android:color="@color/accent">
+            </solid>
+        </shape>
+    </item>
+
 </selector>

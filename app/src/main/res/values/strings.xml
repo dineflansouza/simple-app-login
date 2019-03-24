@@ -4,6 +4,6 @@
 
     <string name="sign_info_text">Já possui cadastro. **Entre aqui**.</string>
     <string name="sign_info_text_accessibility">Já possui cadastro. Entre aqui.</string>
-
     <string name="sign_up_button_text">quero me cadastrar</string>
+    <string name="login_button_text">entrar</string>
 </resources>

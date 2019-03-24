@@ -9,7 +9,7 @@
 
     <TextView
             tools:text="@tools:sample/lorem"
-            android:id="@+id/sign_in_title"
+            android:id="@+id/login_title"
             android:textStyle="bold"
             android:textColor="@color/secondary_text_white"
             android:layout_width="0dp"
@@ -25,14 +25,14 @@
 
     <android.support.design.widget.TextInputLayout
             android:layout_marginTop="24dp"
-            android:id="@+id/sign_in_email_label"
+            android:id="@+id/login_in_email_label"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/sign_in_title"
+            app:layout_constraintTop_toBottomOf="@+id/login_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        <EditText android:id="@+id/sign_in_email_type"
+        <EditText android:id="@+id/login_in_email_type"
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:inputType="textEmailAddress"
@@ -42,15 +42,15 @@
 
     <android.support.design.widget.TextInputLayout
             android:layout_marginTop="24dp"
-            android:id="@+id/sign_in_password_label"
+            android:id="@+id/login_in_password_label"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/sign_in_email_label"
+            app:layout_constraintTop_toBottomOf="@+id/login_in_email_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
 
-        <EditText android:id="@+id/sign_in_password_type"
+        <EditText android:id="@+id/login_in_password_type"
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:inputType="textPassword"
@@ -59,11 +59,10 @@
     </android.support.design.widget.TextInputLayout>
 
     <Button
-            android:id="@+id/sign_up_button"
+            android:id="@+id/login_button"
             android:layout_marginTop="32dp"
             tools:text="@tools:sample/lorem"
-            app:layout_constraintTop_toBottomOf="@+id/sign_in_password_label"
-            android:text="@string/sign_up_button_text"
+            app:layout_constraintTop_toBottomOf="@+id/login_in_password_label"
             style="@style/Button.Danger"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -84,6 +83,6 @@
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/sign_up_button"/>
+            app:layout_constraintTop_toBottomOf="@+id/login_button"/>
 
 </android.support.constraint.ConstraintLayout>

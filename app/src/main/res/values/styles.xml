@@ -15,6 +15,7 @@
     </style>
 
     <style name="AppTheme.Onboarding" parent="AppTheme">
+        <item name="android:editTextColor">@color/secondary_text_white</item>
         <item name="android:statusBarColor">@color/primary</item>
     </style>
 </resources>
