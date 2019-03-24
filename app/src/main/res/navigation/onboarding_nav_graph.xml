@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/onboarding_nav_graph">
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:id="@+id/onboarding_nav_graph"
+  app:startDestination="@id/product_info">
 
-    <fragment
-            android:id="@+id/product_info"
-            android:name="com.lennon.navigationapp.view.onboarding.fragments.ProductIntroFragment"/>
+  <fragment
+    android:id="@+id/product_info"
+    android:name="com.lennon.navigationapp.view.onboarding.fragments.ProductIntroFragment"/>
 
 </navigation>
