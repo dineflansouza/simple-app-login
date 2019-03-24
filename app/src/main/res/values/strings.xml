@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Navigation App</string>
+    <string name="product_info_title">Lorem Ipsum</string>
+    <string name="sign_info_text">Já possui cadastro. **Entre aqui**.</string>
 </resources>
