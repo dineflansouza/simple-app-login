@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 import com.lennon.navigationapp.R
 import com.lennon.navigationapp.util.parseText
 import com.lennon.navigationapp.view.onboarding.fragments.welcome.viewmodel.WelcomeViewModel
@@ -29,7 +30,7 @@ class WelcomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         setInfoTitle()
-        setSignupButton()
+        setSignUpButton()
         setSignInfo()
     }
 
@@ -37,17 +38,21 @@ class WelcomeFragment : Fragment() {
         product_info_title.text = getString(viewModel.fragmentVO.title)
     }
 
-    private fun setSignInfo() {
-        sign_info.parseText(getString(viewModel.fragmentVO.signInfo.title))
-        sign_info.setOnClickListener {
-            viewModel.fragmentVO.signInfo.callback
-        }
+    private fun setSignUpButton() {
+        sign_up_button.text = getString(viewModel.fragmentVO.signUpButton.title)
+        sign_up_button.setOnClickListener(
+            Navigation.createNavigateOnClickListener(
+                viewModel.fragmentVO.signUpButton.nextStep
+            )
+        )
     }
 
-    private fun setSignupButton() {
-        sign_up_button.text = getString(viewModel.fragmentVO.signUpButton.title)
-        sign_up_button.setOnClickListener {
-            viewModel.fragmentVO.signUpButton.callback
-        }
+    private fun setSignInfo() {
+        sign_info.parseText(getString(viewModel.fragmentVO.signInfo.title))
+        sign_info.setOnClickListener(
+            Navigation.createNavigateOnClickListener(
+                viewModel.fragmentVO.signInfo.nextStep
+            )
+        )
     }
 }

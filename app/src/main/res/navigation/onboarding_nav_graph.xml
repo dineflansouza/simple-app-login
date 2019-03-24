@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:app="http://schemas.android.com/apk/res-auto"
-  android:id="@+id/onboarding_nav_graph"
-  app:startDestination="@id/product_info">
+            xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/onboarding_nav_graph"
+            app:startDestination="@id/welcome_fragment">
 
-  <fragment
-    android:id="@+id/product_info"
-    android:name="com.lennon.navigationapp.view.onboarding.fragments.welcome.WelcomeFragment"/>
+    <fragment
+            tools:layout="@layout/welcome_fragment"
+            android:id="@+id/welcome_fragment"
+            android:name="com.lennon.navigationapp.view.onboarding.fragments.welcome.WelcomeFragment"
+            android:label="Welcome Fragment">
+        <action
+                android:id="@+id/from_welcome_fragment_to_login_fragment"
+                app:destination="@+id/login_fragment"/>
+    </fragment>
+
+    <fragment
+            tools:layout="@layout/login_fragment"
+            android:id="@+id/login_fragment"
+            android:name="com.lennon.navigationapp.view.onboarding.fragments.login.LoginFrament"
+            android:label="Login Fragment"/>
 
 </navigation>

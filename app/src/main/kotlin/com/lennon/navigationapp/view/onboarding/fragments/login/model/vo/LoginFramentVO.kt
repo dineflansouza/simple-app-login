@@ -1,19 +1,21 @@
 package com.lennon.navigationapp.view.onboarding.fragments.welcome.model.vo
 
-class WelcomeFramentVO(
+import android.view.View
+
+class LoginFramentVO(
     val title: Int,
     val signUpButton: WelcomeFramentButtonVO,
-    val signInfo: WelcomeFramentLinkVO
+    val signInfo: WelcomeFramentSignInfoVO
 ) {
 
     class WelcomeFramentButtonVO(
         val title: Int,
-        val nextStep: Int
+        val callback: View.OnClickListener
     )
 
-    class WelcomeFramentLinkVO(
+    class WelcomeFramentSignInfoVO(
         val title: Int,
-        val nextStep: Int
+        val callback: View.OnClickListener
     )
 }
 
