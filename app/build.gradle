@@ -25,10 +25,19 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
-    implementation "com.android.support:appcompat-v7:$versions.appcompat"
+    implementation "com.google.android.material:material:$versions.materialVersion"
+    implementation "androidx.appcompat:appcompat:$versions.appCompatVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$versions.constraintLayoutVersion"
+
+    // Navigation
+    implementation "android.arch.navigation:navigation-fragment-ktx:$versions.navigationVersion"
+    implementation "android.arch.navigation:navigation-ui-ktx:$versions.navigationVersion"
 
     testImplementation "junit:junit:$versions.junit"
 
     androidTestImplementation "com.android.support.test:runner:$versions.runner"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$versions.espresso"
 }
+
+
+
