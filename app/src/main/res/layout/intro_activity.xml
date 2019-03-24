@@ -7,7 +7,7 @@
     <com.airbnb.lottie.LottieAnimationView
             app:lottie_loop="true"
             app:lottie_autoPlay="true"
-            app:lottie_fileName="bouncing-ball.json"
+            app:lottie_fileName="intro.json"
             android:id="@+id/intro_animation"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

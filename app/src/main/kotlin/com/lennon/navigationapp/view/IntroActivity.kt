@@ -8,6 +8,10 @@ import com.lennon.navigationapp.view.onboarding.OnboardingActivity
 
 class IntroActivity : AppCompatActivity() {
 
+    companion object {
+        private const val SPLASH_SCREEN_DELAY_TIME = 3000L
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.intro_activity)
@@ -18,6 +22,6 @@ class IntroActivity : AppCompatActivity() {
         Handler().postDelayed({
             startActivity(OnboardingActivity(this))
             finish()
-        }, 300)
+        }, SPLASH_SCREEN_DELAY_TIME)
     }
 }
