@@ -15,5 +15,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".view.onboarding.OnboardingActivity"
+                  android:screenOrientation="portrait"/>
+
     </application>
 </manifest>
