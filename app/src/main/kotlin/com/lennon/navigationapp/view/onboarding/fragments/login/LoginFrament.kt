@@ -10,7 +10,7 @@ import android.view.ViewGroup
 import androidx.navigation.Navigation
 import com.lennon.navigationapp.util.onRequestFocusShowKeyboard
 import com.lennon.navigationapp.util.parseText
-import com.lennon.navigationapp.view.onboarding.fragments.login.util.TextWatcherImpl
+import com.lennon.navigationapp.util.TextWatcherImpl
 import com.lennon.navigationapp.view.onboarding.fragments.login.viewmodel.LoginViewModel
 import kotlinx.android.synthetic.main.login_fragment.*
 import org.koin.android.viewmodel.ext.android.viewModel

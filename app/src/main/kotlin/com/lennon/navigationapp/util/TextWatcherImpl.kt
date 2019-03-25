@@ -1,4 +1,4 @@
-package com.lennon.navigationapp.view.onboarding.fragments.login.util
+package com.lennon.navigationapp.util
 
 import android.text.Editable
 import android.text.TextWatcher

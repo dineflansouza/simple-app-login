@@ -23,6 +23,7 @@
         <activity
                 android:theme="@style/AppTheme"
                 android:name=".view.onboarding.SignCompleteActivity"/>
+        <activity android:name=".view.onboarding.HomeActivity"/>
 
     </application>
 </manifest>
