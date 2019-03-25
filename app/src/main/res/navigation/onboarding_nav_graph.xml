@@ -18,6 +18,16 @@
             tools:layout="@layout/login_fragment"
             android:id="@+id/login_fragment"
             android:name="com.lennon.navigationapp.view.onboarding.fragments.login.LoginFrament"
-            android:label="Login Fragment"/>
+            android:label="Login Fragment">
+        <action
+                android:id="@+id/from_login_fragment_to_sigin_complete_activity"
+                app:destination="@+id/sigin_complete_activity"/>
+    </fragment>
+
+    <activity
+            tools:layout="@layout/sigin_complete_activity"
+            android:id="@+id/sigin_complete_activity"
+            android:name="com.lennon.navigationapp.view.onboarding.SignCompleteActivity"
+            android:label="Sigin Complete Fragment"/>
 
 </navigation>

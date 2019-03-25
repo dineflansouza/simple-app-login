@@ -58,7 +58,7 @@ class LoginFrament : Fragment() {
     }
 
     private fun setInfoTitle() {
-        login_title.text = getString(viewModel.getLoginFragmentVO().title)
+        sigin_complete_title.text = getString(viewModel.getLoginFragmentVO().title)
     }
 
     private fun setSignUpButton() {
@@ -83,4 +83,7 @@ class LoginFrament : Fragment() {
         )
     }
 
+    private fun finishNavigation() {
+        requireActivity().finish()
+    }
 }

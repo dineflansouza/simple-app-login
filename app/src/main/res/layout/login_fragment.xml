@@ -8,9 +8,9 @@
         android:background="@color/primary">
 
     <TextView
-            style="@style/Text.Header.Centered"
+            style="@style/Text.Header.Negative.Centered"
             tools:text="@tools:sample/lorem"
-            android:id="@+id/login_title"
+            android:id="@+id/sigin_complete_title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -25,7 +25,7 @@
             android:id="@+id/login_in_email_label"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/login_title"
+            app:layout_constraintTop_toBottomOf="@+id/sigin_complete_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 

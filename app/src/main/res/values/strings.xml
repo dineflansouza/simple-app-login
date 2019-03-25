@@ -9,5 +9,7 @@
     <string name="not_account_still_text_accessibility">Não possui cadastro ainda?. Entre aqui.</string>
 
     <string name="sign_up_button_text">quero me cadastrar</string>
+    <string name="sigin_complete_title">**Parabéns!** você concluiu o seu **cadastro**!</string>
+    <string name="sigin_complete_title_accessibility">parabéns! você concluiu o seu cadastro!</string>
     <string name="login_button_text">entrar</string>
 </resources>

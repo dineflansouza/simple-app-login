@@ -6,16 +6,21 @@
     </style>
 
     <style name="Text.Link.Centered" parent="Text.Link">
+        <item name="android:textColor">@color/secondary_text_white</item>
         <item name="android:textAlignment">center</item>
     </style>
 
     <style name="Text.Header" parent="TextAppearance.MaterialComponents.Headline1">
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/secondary_text_white</item>
+        <item name="android:textColor">@color/secondary_text</item>
         <item name="android:textSize">32sp</item>
     </style>
 
-    <style name="Text.Header.Centered" parent="Text.Header">
+    <style name="Text.Header.Negative" parent="Text.Header">
+        <item name="android:textColor">@color/secondary_text_white</item>
+    </style>
+
+    <style name="Text.Header.Negative.Centered" parent="Text.Header.Negative">
         <item name="android:textAlignment">center</item>
     </style>
 </resources>
