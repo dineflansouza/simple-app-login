@@ -20,14 +20,20 @@
             android:name="com.lennon.navigationapp.view.onboarding.fragments.login.LoginFrament"
             android:label="Login Fragment">
         <action
-                android:id="@+id/from_login_fragment_to_sigin_complete_activity"
-                app:destination="@+id/sigin_complete_activity"/>
+                android:id="@+id/from_login_fragment_to_home_activity"
+                app:destination="@+id/home_activity"/>
     </fragment>
 
     <activity
             tools:layout="@layout/sigin_complete_activity"
             android:id="@+id/sigin_complete_activity"
             android:name="com.lennon.navigationapp.view.onboarding.SignCompleteActivity"
-            android:label="Sigin Complete Fragment"/>
+            android:label="Sigin Complete"/>
+
+    <activity
+            tools:layout="@layout/home_activity"
+            android:id="@+id/home_activity"
+            android:name="com.lennon.navigationapp.view.onboarding.HomeActivity"
+            android:label="Home"/>
 
 </navigation>

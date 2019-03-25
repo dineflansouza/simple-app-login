@@ -23,7 +23,7 @@
             app:lottie_autoPlay="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/sigin_complete_message"
+            app:layout_constraintTop_toBottomOf="@+id/home_welcome_message"
             app:lottie_fileName="home.json"
             android:layout_width="320dp"
             android:layout_height="320dp"/>

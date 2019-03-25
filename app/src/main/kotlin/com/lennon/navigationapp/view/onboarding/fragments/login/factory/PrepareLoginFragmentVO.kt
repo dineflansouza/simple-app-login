@@ -16,12 +16,12 @@ internal fun prepareLoginFragmentVO(): LoginFramentVO {
         password = BLANK_PASSWORD,
         loginButton = ButtonVO(
             title = R.string.login_button_text,
-            nextStep = R.id.from_login_fragment_to_sigin_complete_activity,
+            nextStep = R.id.from_login_fragment_to_home_activity,
             enabled = false
         ),
         signLink = LinkVO(
             title = R.string.not_account_still_text,
-            nextStep = R.id.from_login_fragment_to_sigin_complete_activity
+            nextStep = R.id.login_fragment
         )
     )
 }

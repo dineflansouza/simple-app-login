@@ -8,9 +8,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
+import com.lennon.navigationapp.util.TextWatcherImpl
 import com.lennon.navigationapp.util.onRequestFocusShowKeyboard
 import com.lennon.navigationapp.util.parseText
-import com.lennon.navigationapp.util.TextWatcherImpl
 import com.lennon.navigationapp.view.onboarding.fragments.login.viewmodel.LoginViewModel
 import kotlinx.android.synthetic.main.login_fragment.*
 import org.koin.android.viewmodel.ext.android.viewModel
@@ -81,9 +81,5 @@ class LoginFrament : Fragment() {
                 viewModel.getLoginFragmentVO().signLink.nextStep
             )
         )
-    }
-
-    private fun finishNavigation() {
-        requireActivity().finish()
     }
 }

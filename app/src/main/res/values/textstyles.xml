@@ -16,6 +16,10 @@
         <item name="android:textSize">32sp</item>
     </style>
 
+    <style name="Text.Header.Centered" parent="Text.Header">
+        <item name="android:textAlignment">center</item>x
+    </style>
+
     <style name="Text.Header.Negative" parent="Text.Header">
         <item name="android:textColor">@color/secondary_text_white</item>
     </style>

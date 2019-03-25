@@ -12,6 +12,6 @@
     <string name="sigin_complete_title">**Parabéns!** você concluiu o seu **cadastro**!</string>
     <string name="sigin_complete_title_accessibility">parabéns! você concluiu o seu cadastro!</string>
     <string name="login_button_text">entrar</string>
-    <string name="home_welcome_message">Olá, **%s!** seja bem vindo(a)!</string>
-    <string name="home_welcome_message_accessibility">Olá, %s! seja bem vindo(a)!</string>
+    <string name="home_welcome_message">Olá, **cliente!** seja bem vindo(a)!</string>
+    <string name="home_welcome_message_accessibility">Olá, cliente! seja bem vindo(a)!</string>
 </resources>
