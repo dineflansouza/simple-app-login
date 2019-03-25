@@ -14,4 +14,7 @@
     <string name="login_button_text">entrar</string>
     <string name="home_welcome_message">Olá, **cliente!** seja bem vindo(a)!</string>
     <string name="home_welcome_message_accessibility">Olá, cliente! seja bem vindo(a)!</string>
+    <string name="input_email_hint">Digite o seu email</string>
+    <string name="input_name_hint">Digite o seu nome</string>
+    <string name="input_password_hint">Digite a sua senha</string>
 </resources>

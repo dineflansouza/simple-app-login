@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/default_app_border"
+        android:background="@color/primary">
+
+    <TextView
+            style="@style/Text.Header.Negative.Centered"
+            tools:text="@tools:sample/lorem"
+            android:id="@+id/sig_in_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="24dp"
+            android:id="@+id/sig_in_name_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sig_in_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/sig_in_name_type"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textEmailAddress"
+                  android:hint="@string/input_name_hint"/>
+
+    </android.support.design.widget.TextInputLayout>
+    
+    <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="24dp"
+            android:id="@+id/sig_in_email_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sig_in_name_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/sig_in_email_type"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textEmailAddress"
+                  android:hint="@string/input_email_hint"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="24dp"
+            android:id="@+id/sig_in_password_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sig_in_email_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <EditText android:id="@+id/sig_in_password_type"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textPassword"
+                  android:hint="@string/input_password_hint"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+            android:id="@+id/sign_in_button"
+            android:layout_marginTop="32dp"
+            tools:text="@tools:sample/lorem"
+            app:layout_constraintTop_toBottomOf="@+id/sig_in_password_label"
+            style="@style/Button.Danger"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+    <TextView
+            android:textAlignment="center"
+            style="@style/Text.Link.Centered"
+            tools:text="@tools:sample/lorem"
+            android:id="@+id/login_account_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_in_button"/>
+
+</android.support.constraint.ConstraintLayout>
